@@ -22,4 +22,7 @@ export default {
       include: "**/*.html",
     }),
   ],
+  watch: {
+    chokidar: false,
+  },
 };
