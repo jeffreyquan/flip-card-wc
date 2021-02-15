@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="demo/style.css" />
+    <link rel="stylesheet" href="demo.css" />
     <title>Flip Card Web Component</title>
   </head>
   <body>
@@ -31,7 +31,10 @@
           class="movie-card__details movie-card__details--front"
         >
           <div class="movie-card__image">
-            <img src="demo/movie-cover.png" alt="The Wolf Of Wall Street" />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png"
+              alt="The Wolf Of Wall Street"
+            />
           </div>
         </div>
         <div slot="back" class="movie-card__detail movie-card__details--back">
@@ -46,6 +49,6 @@
         </div>
       </flip-card>
     </div>
-    <script src="dist/main.js"></script>
+    <script src="../dist/main.js"></script>
   </body>
 </html>
