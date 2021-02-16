@@ -1,4 +1,5 @@
 [![npm package](https://img.shields.io/npm/v/flip-card-wc.svg)](https://www.npmjs.com/package/flip-card-wc)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/jeffreyquan/flip-card-wc)
 
 # Flip Card Web Component
 
@@ -11,6 +12,47 @@ Features:
 - Card that flips on click
 
 ## Demo
+
+<!--
+```
+<custom-element-demo>
+  <template>
+    <script src="http://unpkg.com/flip-card-wc/dist/main.js"></script>
+    <custom-style>
+      <style is="custom-style">
+        .card {
+          --flip-card-height: 300px;
+          --flip-card-background-color-front: LightSkyBlue;
+          --flip-card-background-color-back: salmon;
+          --flip-card-box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+            0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+        }
+
+        .card__details {
+          height: var(--flip-card-height);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0;
+        }
+      </style>
+    </custom-style>
+    <next-code-block></next-code-block>
+  </template>
+</custom-element-demo>
+```
+-->
+
+```html
+<flip-card class="card" variant="click">
+  <div class="card__details" slot="front">
+    <p>Hello</p>
+  </div>
+  <div class="card__details" slot="black">
+    <p>World</p>
+  </div>
+</flip-card>
+```
 
 ### HTML
 
