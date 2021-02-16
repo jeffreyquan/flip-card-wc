@@ -1,5 +1,5 @@
 [![npm package](https://img.shields.io/npm/v/flip-card-wc.svg)](https://www.npmjs.com/package/flip-card-wc)
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/jeffreyquan/flip-card-wc)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/flip-card-wc)
 
 # Flip Card Web Component
 
