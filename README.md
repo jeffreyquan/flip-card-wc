@@ -14,6 +14,8 @@ Features:
 
 ### HTML
 
+Visit the following [link](https://flip-card-wc.netlify.app/) for an example of usage in plain HTML.
+
 ### React
 
 Visit this [Code Sandbox](https://codesandbox.io/s/flip-card-wc-5i248) for an example of usage in React.
@@ -98,7 +100,7 @@ npm install
 npm run start
 ```
 
-Make changes in the `style.scss` and the `FlipCard.ts` file.
+Make changes in the `style.scss` and the `FlipCard.ts` file in the `src` directory.
 
 ## License
 

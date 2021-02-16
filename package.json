@@ -1,9 +1,8 @@
 {
   "name": "flip-card-wc",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Flip Card Web Component",
   "main": "dist/main.js",
-  "types": "./dist/main.d.ts",
   "scripts": {
     "start": "concurrently \"npm run scss:watch\"  \"npm run start:build\" \"npm run serve\"",
     "scss:watch": "node-sass -w -r src/style.scss -o ./src",
