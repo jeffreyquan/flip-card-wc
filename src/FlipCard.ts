@@ -10,13 +10,14 @@ ${template}
 class FlipCard extends HTMLElement {
   private _shadowRoot: ShadowRoot;
 
+  [key: string]: any;
+
   constructor() {
     super();
 
     this._shadowRoot = this.attachShadow({ mode: "open" });
 
-    this._shadowRoot.appendChild(flipCardTemplate.content.cloneNode(true));
-   
+    this._shadowRoot.appendChild(flipCardTemplate.content.cloneNode(true)); 
   }
 
   connectedCallback() {
@@ -24,7 +25,16 @@ class FlipCard extends HTMLElement {
       this.variant = "hover";
     }
     this.attachEventListeners();
+    this._upgradeProperty('variant');
   }
+
+  _upgradeProperty(prop: string) {
+  if (this.hasOwnProperty(prop)) {
+    let value = this[prop];
+    delete this[prop];
+    this[prop] = value;
+  }
+}
 
   static get observedAttributes() {
     return ['variant'];
@@ -90,3 +100,11 @@ class FlipCard extends HTMLElement {
 }
 
 window.customElements.define("flip-card", FlipCard);
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      "flip-card": any;
+    }
+  }
+}
