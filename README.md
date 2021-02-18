@@ -13,47 +13,6 @@ Features:
 
 ## Demo
 
-<!--
-```
-<custom-element-demo>
-  <template>
-    <script src="http://unpkg.com/flip-card-wc/dist/main.js"></script>
-    <custom-style>
-      <style is="custom-style">
-        .card {
-          --flip-card-height: 300px;
-          --flip-card-background-color-front: LightSkyBlue;
-          --flip-card-background-color-back: salmon;
-          --flip-card-box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
-            0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
-        }
-
-        .card__details {
-          height: var(--flip-card-height);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin: 0;
-        }
-      </style>
-    </custom-style>
-    <next-code-block></next-code-block>
-  </template>
-</custom-element-demo>
-```
--->
-
-```html
-<flip-card class="card" variant="click">
-  <div class="card__details" slot="front">
-    <p>Hello</p>
-  </div>
-  <div class="card__details" slot="black">
-    <p>World</p>
-  </div>
-</flip-card>
-```
-
 ### HTML
 
 Visit the following [link](https://flip-card-wc.netlify.app/) for an example of usage in plain HTML.
