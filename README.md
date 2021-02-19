@@ -88,7 +88,7 @@ If you would like to contribute, please follow the instructions below:
 1. Fork the repo
 2. Run `npm install`
 3. Create a feature branch: `git checkout -b feature/feature-name`
-4. Commit your changes: `git commit -am "Added feature`
+4. Commit your changes: `git commit -am "Added feature"`
 5. Push to the branch: `git push origin feature/feature-name`
 6. Submit a Pull Request
 
