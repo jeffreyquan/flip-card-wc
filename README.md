@@ -28,7 +28,7 @@ Visit this [Code Sandbox](https://codesandbox.io/s/flip-card-wc-5i248) for an ex
 Add the following script tag to your `index.html`:
 
 ```
-<script src="http://unpkg.com/flip-card-wc/dist/main.js"></script>
+<script src="http://unpkg.com/flip-card-wc/dist/flip-card-wc.js"></script>
 ```
 
 ### Option 2 - React, Angular or Vue

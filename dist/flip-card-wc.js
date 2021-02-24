@@ -73,4 +73,4 @@ class FlipCard extends HTMLElement {
     }
 }
 window.customElements.define("flip-card", FlipCard);
-//# sourceMappingURL=main.js.map
+//# sourceMappingURL=flip-card-wc.js.map
