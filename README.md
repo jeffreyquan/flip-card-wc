@@ -78,6 +78,7 @@ To override the CSS variables, it is recommended to add a class to the `flip-car
   --flip-card-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
   --flip-card-background-color-front: white;
   --flip-card-background-color-back: white;
+  --flip-card-transition-timing-function: ease;
 }
 ```
 
