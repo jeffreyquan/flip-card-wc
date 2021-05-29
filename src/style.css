@@ -7,7 +7,7 @@
   height: var(--flip-card-height, 100px); }
   .flip-card__side {
     height: var(--flip-card-height, 100px);
-    transition: all var(--flip-card-transition-duration, 800ms) ease;
+    transition: all var(--flip-card-transition-duration, 800ms) var(--flip-card-transition-timing-function, ease);
     position: absolute;
     top: 0;
     left: 0;
