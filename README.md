@@ -15,7 +15,7 @@ Features:
 
 ### HTML
 
-Visit the following [link](https://flip-card-wc.netlify.app/) for an example of usage in plain HTML.
+Visit the [CodePen](https://codepen.io/jeffreyquan/pen/ZEByKRL) for an example of usage in plain HTML.
 
 ### React
 
